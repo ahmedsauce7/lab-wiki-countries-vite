@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
 }
 
@@ -39,4 +39,56 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+.countriescolumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5px;
+  width: 400px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid black;
+  background-image: url('./assets/world.jpg');
+  background-position: cover;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.image{
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+
+.detailimage{
+  width: 150px;
+  color: white;
+}
+
+.mainPage{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 1000px;
+
+}
+
+.mainpageDetail{
+  width: 500px;
+  position: fixed;
+  top: 81.5px;
+  left: 600px;
+  border: 1px solid black;
+  background-image: url('./assets/world.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+}
+
+.tabled{
+  color: white;
 }
